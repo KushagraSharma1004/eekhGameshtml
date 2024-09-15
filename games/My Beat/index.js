@@ -197,13 +197,13 @@ class Gib {
 const xWorld = canvasObj.width / 2;
 const yWorld = canvasObj.height / 2;
 
-let player = new Player(xWorld, yWorld, 30, "white");
+let player = new Player(xWorld, yWorld + 200, 30, "white");
 let bullets = [];
 let enemies = [];
 let gibs = [];
 
 function init() {
-    player = new Player(xWorld, yWorld, 30, "white");
+    player = new Player(xWorld, yWorld + 200, 30, "white");
     bullets = [];
     enemies = [];
     gibs = [];
